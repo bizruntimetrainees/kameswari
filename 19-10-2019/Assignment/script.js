@@ -1,0 +1,10 @@
+$(document).ready(function(){  
+    $(".addlist").click(function(){  
+        $("ol").append("<li></li>");  
+    });
+});  
+$(document).ready(function(){  
+    $(".deletelist").click(function(){  
+        $("ol").remove();  
+    });
+});  
